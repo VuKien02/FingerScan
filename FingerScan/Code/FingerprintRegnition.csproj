@@ -1,0 +1,221 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="Current">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>8.0.50727</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{267A0C0C-9252-4414-82C9-78A08D896985}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon>App.ico</ApplicationIcon>
+    <AssemblyKeyContainerName>
+    </AssemblyKeyContainerName>
+    <AssemblyName>FingerprintRegnition</AssemblyName>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FingerprintRegnition</RootNamespace>
+    <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
+    <StartupObject>
+    </StartupObject>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile>
+    </ConfigurationOverrideFile>
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <NoStdLib>false</NoStdLib>
+    <NoWarn>
+    </NoWarn>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing">
+      <Name>System.Drawing</Name>
+    </Reference>
+    <Reference Include="System.Windows.Forms">
+      <Name>System.Windows.Forms</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AlgorithmTest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareInfo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CompareOption.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Controllers\UserController.cs" />
+    <Compile Include="Database.cs" />
+    <Compile Include="Database\DbConnect.cs" />
+    <Compile Include="DataGlobal.cs" />
+    <Compile Include="DataSetUser.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSetUser.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="DetailInfoUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailInfoUser.Designer.cs">
+      <DependentUpon>DetailInfoUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FingerCompare.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Functions.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Image.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="ImageProcessSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MaskGabor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Minutiae.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Models\UserModel.cs" />
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <DependentUpon>Settings.settings</DependentUpon>
+    </Compile>
+    <Compile Include="RegionSelectPadding.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemMoiVanTay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ThemMoiVanTay.Designer.cs">
+      <DependentUpon>ThemMoiVanTay.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AlgorithmTest.resx">
+      <DependentUpon>AlgorithmTest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareInfo.resx">
+      <DependentUpon>CompareInfo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CompareOption.resx">
+      <DependentUpon>CompareOption.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailInfoUser.resx">
+      <DependentUpon>DetailInfoUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FingerCompare.resx">
+      <DependentUpon>FingerCompare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ImageProcessSetting.resx">
+      <DependentUpon>ImageProcessSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RegionSelectPadding.resx">
+      <DependentUpon>RegionSelectPadding.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="App.ico" />
+    <EmbeddedResource Include="ThemMoiVanTay.resx">
+      <DependentUpon>ThemMoiVanTay.cs</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="DataSetUser.xsc">
+      <DependentUpon>DataSetUser.xsd</DependentUpon>
+    </None>
+    <None Include="DataSetUser.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSetUser.Designer.cs</LastGenOutput>
+    </None>
+    <None Include="DataSetUser.xss">
+      <DependentUpon>DataSetUser.xsd</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent>
+    </PreBuildEvent>
+    <PostBuildEvent>
+    </PostBuildEvent>
+  </PropertyGroup>
+  <Import Project="packages\Microsoft.NETFramework.ReferenceAssemblies.net40.1.0.0-preview.2\build\Microsoft.NETFramework.ReferenceAssemblies.net40.targets" Condition="Exists('packages\Microsoft.NETFramework.ReferenceAssemblies.net40.1.0.0-preview.2\build\Microsoft.NETFramework.ReferenceAssemblies.net40.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\Microsoft.NETFramework.ReferenceAssemblies.net40.1.0.0-preview.2\build\Microsoft.NETFramework.ReferenceAssemblies.net40.targets')" Text="$([System.String]::Format('$(ErrorText)', 'packages\Microsoft.NETFramework.ReferenceAssemblies.net40.1.0.0-preview.2\build\Microsoft.NETFramework.ReferenceAssemblies.net40.targets'))" />
+  </Target>
+</Project>

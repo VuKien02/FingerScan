@@ -1,0 +1,27 @@
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\bin\Release\FingerprintRegnition.exe
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.csproj.AssemblyReference.cache
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.About.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.AlgorithmTest.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.CompareInfo.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.CompareOption.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.CompareWithCollection.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.FingerCompare.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.ImageProcessSetting.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.RegionSelectPadding.resources
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.csproj.GenerateResource.cache
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.csproj.CoreCompileInputs.cache
+C:\Users\van anh\Desktop\[Sharecode.vn] Do an nhan dang van tay full code C# + bao cao\nhan dang van tay vesion1.0\vesion1.0\Code\obj\Release\FingerprintRegnition.exe
+D:\fullstack\winforms\FingerScan\Code\bin\Release\FingerprintRegnition.exe
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.csproj.AssemblyReference.cache
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.About.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.AlgorithmTest.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.CompareInfo.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.CompareOption.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.CompareWithCollection.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.FingerCompare.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.ImageProcessSetting.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.RegionSelectPadding.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.ThemMoiVanTay.resources
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.csproj.GenerateResource.cache
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.csproj.CoreCompileInputs.cache
+D:\fullstack\winforms\FingerScan\Code\obj\Release\FingerprintRegnition.exe
